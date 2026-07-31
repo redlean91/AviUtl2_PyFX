@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="PythonBridge/PythonBridge.vcxproj" Id="d0723b73-d9cc-4403-bffa-0327a1f22cfb" />
+</Solution>

@@ -1,0 +1,50 @@
+# Visual Studio / C++ build artifacts
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj.user
+*.log
+*.tlog
+*.ilk
+*.exp
+*.lib
+*.pdb
+*.ipdb
+*.idb
+*.obj
+*.o
+*.pch
+*.iobj
+*.ipch
+*.ncb
+*.aps
+*.cache
+*.tmp
+*.bak
+
+# Build folders
+x64/
+Debug/
+Release/
+build/
+out/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
