@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="example_effect.py" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logger2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PythonFilter.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -125,7 +135,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>%(AdditionalDependencies);</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Redlean\AppData\Local\Programs\Python\Python314\libs\python314.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <DelayLoadDLLs>
       </DelayLoadDLLs>
     </Link>
@@ -150,7 +160,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
-      <AdditionalDependencies>%(AdditionalDependencies);</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Redlean\AppData\Local\Programs\Python\Python314\libs\python314.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <DelayLoadDLLs>
       </DelayLoadDLLs>
     </Link>
@@ -158,20 +168,6 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Documents\Work\PythonBridge\logger2.h" />
-    <ClInclude Include="framework.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Documents\Work\PythonBridge\PythonFilter.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\Documents\Work\PythonBridge\example_effect.py" />
-    <None Include="..\..\..\Documents\Work\PythonBridge\README(1).md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\AppData\Local\Programs\Python\Python314\libs\python314.lib" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

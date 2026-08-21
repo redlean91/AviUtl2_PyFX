@@ -15,23 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Documents\Work\PythonBridge\logger2.h">
+    <None Include="example_effect.py" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logger2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Documents\Work\PythonBridge\PythonFilter.cpp">
+    <ClCompile Include="PythonFilter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\Documents\Work\PythonBridge\example_effect.py" />
-    <None Include="..\..\..\Documents\Work\PythonBridge\README(1).md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="..\..\..\AppData\Local\Programs\Python\Python314\libs\python314.lib" />
   </ItemGroup>
 </Project>
